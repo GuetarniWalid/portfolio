@@ -1,0 +1,381 @@
+@media screen and (max-width: 1400px){
+    /**** Section competence ****/
+
+    .competences .conteneur>div{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .competences .card{
+        width: 600px;
+        margin-right: 0;
+    }
+    .projet .projet-article{
+        width: 600px;
+    }
+
+    /**** Section projet ****/
+
+    .projet .flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .projet article{
+        margin-right: 0;
+        margin-bottom: 80px;
+    }
+    .projet .image-card{
+        height: 350px;
+    }
+    .button-accueil{
+        margin-top: 0;
+    }
+    .logo-projet{
+        width: 130px;
+        height: 130px;
+    }
+
+    /**** Section blog ****/
+
+    .blogs .two-column{
+        flex-direction: column;
+        align-items: center;
+    }
+    .blogs .img-card{
+        height: 400px;
+    }
+    .blogs .two-column{
+        margin-bottom: 20px;
+    }
+
+    /**** Contact ****/
+
+    .competences .conteneur>div.contact-conteneur{
+    margin-top: 20px;
+    width: 100%;
+}
+}
+@media screen and (max-width: 1100px){
+    .contact-conteneur{
+        width: 90%;
+        box-sizing: border-box;
+    }
+    .contact-conteneur p{
+        padding: 0;
+    }
+
+    /**** CV ****/
+    .cv{
+        width: 100%;
+    }
+    .resume+footer{
+        margin-top: -100px;
+    }
+}
+
+@media screen and (max-width: 1030px){
+    /**** Menu header ****/
+
+    #principale ul{
+        flex-direction: column;
+        height: 0;
+        overflow: hidden;
+        animation: none;
+        margin-bottom: 0;
+    }
+    #principale{
+        width: auto;
+    }
+    #header-menu .mobile-bars{
+        display: inline-block;
+        color: #fff;
+        font-size: 45px;
+        margin-top: 5px;
+    }
+    @keyframes open{
+         from{
+            height: 0;
+        }
+        to{
+            height: 200px;
+        }
+    }
+    @keyframes close{
+        from{
+            height: 200px;
+        }
+        to{
+            height: 0;
+       }
+   }
+   .menu_span{
+       display: none;
+   }
+
+   /**** Contact ****/
+
+   h1.contact-title{
+       font-size: 35px;
+   }
+
+   /**** CV ****/
+
+   .header-cv{
+       flex-flow: column;
+   }
+   .header-cv div:first-child{
+       flex: none;
+       align-items: center;
+       width: 100%;
+       background: #434E5E;
+       text-align: center;
+   }
+   .header-cv div:first-child img{
+       width: 120px;
+       margin: 30px auto;
+       border-radius: 5px;
+   }
+   .header-cv div:nth-child(2){
+    flex: none;
+    align-items: center;
+    text-align: center;
+   }
+   .header-cv div:nth-child(3){
+    flex: none;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+   }
+
+   /**** CV ****/
+   .sidebar-right{
+       padding-right: 40px;
+   }
+}
+@media screen and (max-width: 900px){
+
+    /**** Single.php ****/
+    .single_section_content{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .blackContainer img{
+        width: 100%;
+    }
+
+    /**** Section presentation ****/
+    .presentation{
+        border-bottom-right-radius: 30%;
+    }
+
+    /**** Footer ****/
+    #footer{
+        border-top-left-radius: 30%;
+        border-top-right-radius: 20%;
+    }
+}
+
+@media screen and (max-width: 815px){
+    .single_img{
+        margin-top: 0;
+    }
+    .single .presentation{
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+}
+
+@media screen and (max-width: 674px){
+    /**** Section presentation ****/
+
+    .presentation .conteneur{
+        display: block;
+    }
+    .presentation .photo{
+        float: left;
+    }
+    .presentation{
+        border-bottom-left-radius: 10%;
+    }
+
+
+    /**** Section competence ****/
+
+    .competences .card{
+        margin-right: 0;
+        width: 400px;
+    }
+
+    /**** Section projet ****/
+
+    .projet .projet-article{
+        width: 400px;
+    }
+    .projet .image-card{
+        height: 300px;
+    }
+    .logo-projet{
+        width: 100px;
+        height: 100px;
+    }
+
+
+    /**** Section blog ****/
+    .blogs .blogs-article{
+        margin-right: 0;
+        margin-left: 0;
+        width: 400px;
+    }
+    .blogs .img-card{
+        height: 300px;
+    }
+
+    /**** CV ****/
+
+    .experience-flex{
+        flex-direction: column;
+    }
+    .sidebar-right{
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    #page-cv button{
+        padding: 15px 20px;
+        margin-top: 10px;
+    }
+    #page-cv{
+        text-align: center;
+    }
+    #page-cv .button_download{
+        max-width: 300px;
+        margin: 30px auto 0;
+        padding: 20px 0;
+    }
+
+    /**** Form ****/
+    .contact-conteneur>p:first-child{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    /**** Footer ****/
+    #footer{
+        border-top-right-radius: 20%;
+    }
+}
+
+@media screen and (max-width: 570px){
+
+    #header-menu{
+        padding-left: 0;
+    }
+
+    /**** Section presentation ****/
+    .presentation .photo{
+        float: none;
+    }
+    .presentation{
+        border-bottom-left-radius: 0;
+    }
+
+
+    /**** Section competence ****/
+    .competences p{
+        padding: 0;
+    }   
+
+    /**** Footer ****/
+    #footer{
+        border-top-right-radius: 100px;
+    }
+
+}
+
+@media screen and (max-width: 460px){
+
+    /**** Section menu ****/
+
+    #header-menu{
+        padding-bottom: 0;
+    }
+
+    /**** Section presentation ****/
+
+    .presentation{
+        padding-right: 20px;
+        padding-left: 20px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 30%;
+    }
+
+    /**** Section competence ****/
+
+    .competences .card{
+        width: 90%;
+    }
+    .competences{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    /**** Section projet ****/
+
+    .projet .projet-article{
+        width: 90%;
+    }
+    #page-projet-conteneur .page-projet-title{
+        font-size: 38px;
+    }
+    .projet .image-card{
+        height: 200px;
+    }
+    .logo-projet{
+        width: 70px;
+        height: 70px;
+    }
+
+    /**** Section blog ****/
+
+    .blogs .blogs-article{
+        width: 90%;
+    }
+    .blogs .img-card{
+        height: 250px;
+    }
+
+    /**** Footer ****/
+
+    #footer{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    /**** CV ****/
+
+    .sidebar-right, .career, .experience{
+        padding-right: 0;
+        padding-left: 0;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    /**** Single.php ****/
+
+    .single_conteneur h1{
+        font-size: 30px;
+    }
+
+    /**** Form ****/
+    .contact-conteneur>p:first-child{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+     /**** Footer ****/
+     #footer{
+        border-top-right-radius: 0;
+        border-top-left-radius: 100px;
+    }
+}
